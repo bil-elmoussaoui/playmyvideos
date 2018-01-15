@@ -3,6 +3,7 @@ cmake_policy (VERSION 2.8)
 
 project (com.github.artemanufrij.playmyvideos)
 include (GNUInstallDirs)
+list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)d
 set (DATADIR "${CMAKE_INSTALL_FULL_DATAROOTDIR}")
 set (PKGDATADIR "${DATADIR}/${CMAKE_PROJECT_NAME}")
 set (GETTEXT_PACKAGE ${CMAKE_PROJECT_NAME})
